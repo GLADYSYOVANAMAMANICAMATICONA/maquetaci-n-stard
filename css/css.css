@@ -35,7 +35,9 @@ p{
   width: 50px;
 }
 
-
+.start-b{
+  color: #fed136;
+}
 
 header nav{
   z-index: 1;
@@ -46,10 +48,12 @@ header nav{
   color: white;
   background-color: transparent;
 }
+
 .example3 nav{
   position: fixed;
   margin-bottom: 0px;
   width: 100%;
+  margin: 0%;
 }
 
 div nav h1{
@@ -79,8 +83,11 @@ div nav h1{
 }
 /*portafolio*/
 .div-fondo{
-  width: 90%;
+  width: 100%;
   background-color: white;
+}
+.div-fondo img{
+  width: 100%;
 }
 
 /*about*/
@@ -125,7 +132,7 @@ div .team-fila{
   color: white;
 }
 
-.contact input, textarea{
+.contact .validar{
   width: 90%;
   margin-top: 2%;
   padding: 2%;
